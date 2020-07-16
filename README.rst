@@ -10,8 +10,8 @@
 ====================================================================
 
 
-.. image:: https://img.shields.io/github/license/geosec/docs-geo-knowldege-hub.svg
-        :target: https://github.com/geosec/docs-geo-knowldege-hub/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/geo-knowledge-hub/docs-geo-knowledge-hub.svg
+        :target: https://github.com/geo-knowledge-hub/docs-geo-knowledge-hub/blob/master/LICENSE
         :alt: Software License
 
 .. image:: https://img.shields.io/badge/lifecycle-experimental-orange.svg

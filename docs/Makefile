@@ -21,7 +21,7 @@ help:
 github:
 	@make clean
 	@make html
-	@cp -a _build/html/. ../../geosec.github.io/
+	@cp -a _build/html/. ../../geo-knowledge-hub.github.io/
 
 
 .PHONY: help Makefile

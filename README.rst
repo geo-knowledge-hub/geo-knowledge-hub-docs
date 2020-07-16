@@ -14,6 +14,7 @@
         :target: https://github.com/geo-knowledge-hub/docs-geo-knowledge-hub/blob/master/LICENSE
         :alt: Software License
 
+
 .. image:: https://img.shields.io/badge/lifecycle-experimental-orange.svg
         :target: https://www.tidyverse.org/lifecycle/#experimental
         :alt: Software Life Cycle
@@ -40,7 +41,7 @@ Generating the Documentation
 
 .. code-block:: shell
 
-    git clone https://github.com/geosec/docs-geo-knowledge-hub.git
+    git clone https://github.com/geo-knowledge-hub/docs-geo-knowledge-hub.git
 
 
 **2.** Go to the source code folder:

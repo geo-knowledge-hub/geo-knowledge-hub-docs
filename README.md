@@ -1,5 +1,5 @@
 # GEO Knowledge Hub Documentation
-[![License](https://img.shields.io/github/license/geo-knowledge-hub/geo-knowledge-hub-docs.svg)](https://github.com/geo-knowledge-hub/docs-geo-knowledge-hub/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/geo-knowledge-hub/geo-knowledge-hub-docs.svg)](https://github.com/geo-knowledge-hub/geo-knowledge-hub-docs/blob/master/LICENSE)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![License](https://img.shields.io/discord/730739436551143514?logo=discord&logoColor=ffffff&color=7389D8)](https://discord.com/channels/730739436551143514#)
 
@@ -16,7 +16,7 @@ git clone https://github.com/geo-knowledge-hub/geo-knowledge-hub-docs.git
 2. Go to the source code directory:
 
 ```shell
-cd docs-geo-knowledge-hub
+cd geo-knowledge-hub-docs
 ```
 
 3. Install the required JavaScript libraries:

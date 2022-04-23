@@ -1,7 +1,5 @@
 backend:
-  name: github
-  branch: master # Branch to update (optional; defaults to master)
-  repo: geo-knowledge-hub/geo-knowledge-hub-docs
+  name: git-gateway
 
 media_folder: 'assets/uploads'
 

@@ -2,7 +2,6 @@
 [![License](https://img.shields.io/github/license/geo-knowledge-hub/geo-knowledge-hub-docs.svg)](https://github.com/geo-knowledge-hub/geo-knowledge-hub-docs/blob/master/LICENSE)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![License](https://img.shields.io/discord/730739436551143514?logo=discord&logoColor=ffffff&color=7389D8)](https://discord.com/channels/730739436551143514#)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c3bcce45-05aa-460b-95cd-2d0a1da29970/deploy-status)](https://app.netlify.com/sites/geo-knowledge-hub-docs/deploys)
 
 This repository contains the source code for the GEO Knowledge Hub User's and Developer's Documentation pages.
 

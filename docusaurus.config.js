@@ -9,8 +9,8 @@ const config = {
   title: "GEO Knowledge Hub",
   tagline:
     "The open-source digital-library for open, authoritative and reproducible knowledge",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://gkhub.earthobservations.org/",
+  baseUrl: "/doc/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

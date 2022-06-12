@@ -1,6 +1,6 @@
 generate:  ## Generate the static pages
 	docker build -t "geo-knowledge-hub/geo-knowledge-hub-docs:0.1" . \
-		&& docker run --rm -v geo_knowledge_hub_docs:/app/site/docs geo-knowledge-hub/geo-knowledge-hub-docs:0.1
+		&& docker run --rm -v geo_knowledge_hub_docs:/app/site/build geo-knowledge-hub/geo-knowledge-hub-docs:0.1
 
 #
 # Documentation function (thanks for https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html)

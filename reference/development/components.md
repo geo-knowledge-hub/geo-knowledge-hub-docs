@@ -1,10 +1,10 @@
 ---
-id: reference-components
-title: Software Components
-sidebar_position: 2
+id: reference-development-components
+title: Components
+sidebar_position: 1
 ---
 
-# Software Components
+# Components
 
 The Figure below presents all the components we expect for the GEO Knowledge Hub. Some already have associated RFCs, while others are yet to be specified.
 

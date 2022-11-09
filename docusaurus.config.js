@@ -64,7 +64,7 @@ const config = {
             label: "Documentation",
           },
           { to: "/reference/introduction", label: "Reference", position: "left" },
-          // { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/geo-knowledge-hub",
             label: "GitHub",

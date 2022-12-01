@@ -1,5 +1,5 @@
 ---
-id: docs-user-guideline-community-managers
+id: user-guideline-community-managers
 title: Guidelines for Community managers
 sidebar_position: 3
 ---

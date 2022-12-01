@@ -1,5 +1,5 @@
 ---
-id: docs-concepts
+id: concepts
 title: Concepts
 sidebar_position: 2
 ---

@@ -1,5 +1,5 @@
 ---
-id: docs-user-guideline-knowledge-user
+id: user-guideline-knowledge-user
 title: Guidelines for Knowledge Users
 sidebar_position: 1
 ---

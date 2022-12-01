@@ -1,5 +1,5 @@
 ---
-id: docs-user-guideline-knowledge-provider
+id: user-guideline-knowledge-provider
 title: Guidelines for Knowledge Providers
 sidebar_position: 2
 ---

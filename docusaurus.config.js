@@ -16,7 +16,6 @@ const config = {
   favicon: "img/favicon.ico",
   organizationName: "GEO Secretariat",
   projectName: "geo-knowledge-hub-docs",
-
   presets: [
     [
       "classic",
@@ -57,6 +56,7 @@ const config = {
           src: "img/base/logo-blue.svg",
         },
         items: [
+          { to: 'showcase', label: 'Showcase', position: 'left' },
           {
             type: "doc",
             docId: "introduction",

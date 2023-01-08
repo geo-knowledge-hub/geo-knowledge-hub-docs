@@ -1,0 +1,13 @@
+
+.tinyImage {
+    width: 720px;
+}
+
+.imageBox {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.imageContent {
+    border: 2px gray solid;
+}

@@ -39,9 +39,17 @@ const config = {
       "@docusaurus/plugin-content-docs",
       {
         id: "reference",
-        path: "reference",
+        path: "extras/reference",
         routeBasePath: "reference",
-      },
+      }
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "development",
+        path: "extras/development",
+        routeBasePath: "development",
+      }
     ],
     require.resolve("@cmfcmf/docusaurus-search-local"),
   ],
@@ -64,6 +72,7 @@ const config = {
             label: "Documentation",
           },
           { to: "/reference/introduction", label: "Reference", position: "left" },
+          { to: "/development/introduction", label: "Development", position: "left" },
           { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/geo-knowledge-hub",

@@ -40,6 +40,23 @@ p {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.hero{
+.hero {
   color: #EBEDF0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.box {
+  border: 1px #406078 solid;
+}
+
+.tabs {
+  text-align: center;
+}
+
+.tiny-image {
+  width: 320px;
+  height: auto;
 }

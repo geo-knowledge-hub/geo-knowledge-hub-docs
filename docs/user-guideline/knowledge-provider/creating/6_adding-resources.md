@@ -6,12 +6,12 @@ sidebar_position: 6
 
 import ImageContent from '@site/src/components/ImageContent';
 
-import KnowledgeDepositSectionResourceAddingFigure from './assets/creating/14-knowledge-resource-creating-resource.png';
-import KnowledgeDepositSectionResourceCreationFigure from './assets/creating/15-knowledge-resource-creating-resource.png';
-import KnowledgeDepositSectionResourceCreationSectionsFigure from './assets/creating/16-knowledge-resource-creating-resource-sections.png';
-import KnowledgeDepositSectionResourceSectionOneFigure from './assets/creating/17-knowledge-resource-creating-resource-result.png';
-import KnowledgeDepositSectionResourceLinkingSectionsFigure from './assets/creating/18-knowledge-resource-creating-resource-associating.png';
-import KnowledgeDepositSectionResourceSectionTwoFigure from './assets/creating/19-knowledge-resource-creating-resource-associating.png';
+import KnowledgeDepositSectionResourceAddingFigure from './assets/14-knowledge-resource-creating-resource.png';
+import KnowledgeDepositSectionResourceCreationFigure from './assets/15-knowledge-resource-creating-resource.png';
+import KnowledgeDepositSectionResourceCreationSectionsFigure from './assets/16-knowledge-resource-creating-resource-sections.png';
+import KnowledgeDepositSectionResourceSectionOneFigure from './assets/17-knowledge-resource-creating-resource-result.png';
+import KnowledgeDepositSectionResourceLinkingSectionsFigure from './assets/18-knowledge-resource-creating-resource-associating.png';
+import KnowledgeDepositSectionResourceSectionTwoFigure from './assets/19-knowledge-resource-creating-resource-associating.png';
 
 Now, you can add *Knowledge Resources* to the *Package* using the interface. To do this, you can use the `Resources menu`. This menu is divided by types of *Resources*:
 

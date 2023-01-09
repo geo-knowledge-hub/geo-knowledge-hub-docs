@@ -6,7 +6,7 @@ sidebar_position: 1
 
 import ImageContent from '@site/src/components/ImageContent';
 
-import NewKnowledgePackageButtonFigure from './assets/creating/01-new-knowledge-package-button.png';
+import NewKnowledgePackageButtonFigure from './assets/01-new-knowledge-package-button.png';
 
 
 To create a Knowledge Package, first access the GEO Knowledge Hub at the following address: https://gkhub.earthobservations.org/. 

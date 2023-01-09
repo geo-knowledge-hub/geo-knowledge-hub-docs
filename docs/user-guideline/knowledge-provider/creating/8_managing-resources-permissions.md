@@ -6,8 +6,8 @@ sidebar_position: 8
 
 import ImageContent from '@site/src/components/ImageContent';
 
-import KnowledgeDepositSectionResourcePermissionButtonFigure from './assets/creating/21-knowledge-resource-creating-resource-managing.png';
-import KnowledgeDepositSectionResourcePermissionManagementFigure from './assets/creating/22-knowledge-resource-creating-resource-managing.png';
+import KnowledgeDepositSectionResourcePermissionButtonFigure from './assets/21-knowledge-resource-creating-resource-managing.png';
+import KnowledgeDepositSectionResourcePermissionManagementFigure from './assets/22-knowledge-resource-creating-resource-managing.png';
 
 With the *Knowledge Resources* added to the *Package*, you can also manage their permissions with the `Management menu`. This specialized menu makes it easy to modify the permissions of several resources, avoiding the need to make [edits](7_editing-resource.md) to each *Resource* to complete this kind of task.
 

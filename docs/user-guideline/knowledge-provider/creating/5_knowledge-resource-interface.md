@@ -6,8 +6,8 @@ sidebar_position: 5
 
 import ImageContent from '@site/src/components/ImageContent';
 
-import KnowledgeDepositSectionResourceFigure from './assets/creating/12-knowledge-resource-interface.png';
-import KnowledgeDepositSectionResourceSectionsFigure from './assets/creating/13-knowledge-resource-interface-section.png';
+import KnowledgeDepositSectionResourceFigure from './assets/12-knowledge-resource-interface.png';
+import KnowledgeDepositSectionResourceSectionsFigure from './assets/13-knowledge-resource-interface-section.png';
 
 Now, after you have defined your *Knowledge Package*, you can start adding *Knowledge Resources* to it. To do this, first access the `Knowledge Resources interface`, available in the [Deposit interface](2_deposit-interface.md). To do this, click the `Go to resources` button, as presented in the section [Acessing the Deposit interface](2_deposit-interface.md).
 

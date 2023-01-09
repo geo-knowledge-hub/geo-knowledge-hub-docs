@@ -6,7 +6,7 @@ sidebar_position: 7
 
 import ImageContent from '@site/src/components/ImageContent';
 
-import KnowledgeDepositSectionResourceManagingFigure from './assets/creating/20-knowledge-resource-creating-resource-managing.png';
+import KnowledgeDepositSectionResourceManagingFigure from './assets/20-knowledge-resource-creating-resource-managing.png';
 
 After you have added *Knowledge Resources* to the *Package*, you can edit them. To do this, you can use the `Options` button to the right of each of the *Resources* you have created. By clicking on this button, as shown in the figure below, you can do
 

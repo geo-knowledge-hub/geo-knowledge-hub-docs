@@ -10,15 +10,15 @@ import TabItem from '@theme/TabItem';
 import ImageContent from '@site/src/components/ImageContent';
 import TabItemContent from '@site/src/components/TabItemContent';
 
-import KnowledgeDepositSectionFilesFigure from './assets/creating/04-knowledge-package-metadata-section-files.png';
-import KnowledgeDepositSectionBasicFigure from './assets/creating/05-knowledge-package-metadata-section-basic-information.png';
-import KnowledgeDepositSectionDescriptionFigure from './assets/creating/06-knowledge-package-metadata-section-description.png';
-import KnowledgeDepositSectionPeopleFigure from './assets/creating/07-knowledge-package-metadata-section-people.png';
-import KnowledgeDepositSectionInitiativeFigure from './assets/creating/08-knowledge-package-metadata-section-initiative.png';
-import KnowledgeDepositSectionDates from './assets/creating/26-knowledge-package-metadata-section-dates.png';
-import KnowledgeDepositSectionLocationsFigure from './assets/creating/09-knowledge-package-metadata-section-geometry.png';
-import KnowledgeDepositSectionLicenseFigure from './assets/creating/10-knowledge-package-metadata-section-publisher.png';
-import KnowledgeDepositSectionRelatedWorksFigure from './assets/creating/11-knowledge-package-metadata-section-related-works.png';
+import KnowledgeDepositSectionFilesFigure from './assets/04-knowledge-package-metadata-section-files.png';
+import KnowledgeDepositSectionBasicFigure from './assets/05-knowledge-package-metadata-section-basic-information.png';
+import KnowledgeDepositSectionDescriptionFigure from './assets/06-knowledge-package-metadata-section-description.png';
+import KnowledgeDepositSectionPeopleFigure from './assets/07-knowledge-package-metadata-section-people.png';
+import KnowledgeDepositSectionInitiativeFigure from './assets/08-knowledge-package-metadata-section-initiative.png';
+import KnowledgeDepositSectionDates from './assets/26-knowledge-package-metadata-section-dates.png';
+import KnowledgeDepositSectionLocationsFigure from './assets/09-knowledge-package-metadata-section-geometry.png';
+import KnowledgeDepositSectionLicenseFigure from './assets/10-knowledge-package-metadata-section-publisher.png';
+import KnowledgeDepositSectionRelatedWorksFigure from './assets/11-knowledge-package-metadata-section-related-works.png';
 
 After accessing and understanding the `Deposit interface`, the first step required to create a Knowledge Package is to fill in the metadata fields. These fields are part of the `Knowledge Package metadata` section presented earlier.
 

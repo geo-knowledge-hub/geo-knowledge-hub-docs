@@ -6,7 +6,7 @@ sidebar_position: 10
 
 import ImageContent from '@site/src/components/ImageContent';
 
-import KnowledgeDepositSectionPublishFigure from './assets/creating/25-knowledge-package-publish.png';
+import KnowledgeDepositSectionPublishFigure from './assets/25-knowledge-package-publish.png';
 
 :::caution
 

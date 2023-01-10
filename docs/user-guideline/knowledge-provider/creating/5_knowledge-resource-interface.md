@@ -1,6 +1,6 @@
 ---
 id: acessing-knowledge-resource-interface
-title: 5. Acessing the Knowledge Resources interface
+title: 5. Accessing the Knowledge Resources interface
 sidebar_position: 5
 ---
 

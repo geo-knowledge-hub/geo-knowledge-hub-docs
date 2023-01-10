@@ -1,6 +1,6 @@
 ---
 id: acessing-knowledge-hub
-title: 1. Acessing the GEO Knowledge Hub
+title: 1. Accessing the GEO Knowledge Hub
 sidebar_position: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: accesing-deposit-interface
-title: 2. Acessing the Deposit interface
+title: 2. Accessing the Deposit interface
 sidebar_position: 2
 ---
 

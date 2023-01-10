@@ -89,7 +89,7 @@ You can exit this interface and reaccess it through the [submissions](https://gk
 <!-- Talk about the visibility -->
 If your *Package* is accepted in the community, it will automatically be published. If the Package is `Restricted`, only community members can see it. Otherwise, if the Package is `Public`, all users of the `GEO Knowledge Hub` will be able to use it.
 
-Also, when a Package is published to a community, its [record landing page](/doc/reference/application/pages/knowledge-package-page) will display the community logo:
+Also, when a Package is published to a community, its [record landing page](/reference/application/pages/knowledge-package-page) will display the community logo:
 
 <ImageContent
     imagePath={PublishedPackage}

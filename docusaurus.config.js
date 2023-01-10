@@ -1,6 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+require("dotenv").config();
+
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
@@ -9,8 +11,8 @@ const config = {
   title: "GEO Knowledge Hub",
   tagline:
     "The open-source digital-library for open, authoritative and reproducible knowledge",
-  url: "https://gkhub.earthobservations.org/",
-  baseUrl: "/doc/",
+  url: process.env.GEO_KNOWLEDGE_HUB_DOCS_URL || "https://gkhub.earthobservations.org/",
+  baseUrl: process.env.GEO_KNOWLEDGE_HUB_DOCS_BASE_URL || "/doc/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

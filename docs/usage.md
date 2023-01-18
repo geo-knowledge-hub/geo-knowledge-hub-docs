@@ -18,6 +18,6 @@ In addition to using the materials already available on the `GEO Knowledge Hub`,
 
 To get started using the `GEO Knowledge Hub`, we recommend that you learn the main [Concepts](concepts/index.md) defined in the system. After learning the main concepts, refer to the links below based on your usage interests:
 
-- [Guidelines for Knowledge Users](user-guideline/knowledge-user/searching/searching.md): Step by step how to start making `Discoveries and use` applications with the `GEO Knowledge Hub`;
+- [Guidelines for Users](user-guideline/knowledge-user/searching/searching.md): Step by step how to start making `Discoveries and use` applications with the `GEO Knowledge Hub`;
 
-- [Guidelines for Knowledge Users](user-guideline/knowledge-provider/creating/index.md): Step by Step for `Sharing` applications in the `GEO Knowledge Hub`.
+- [Guidelines for Knowledge Providers](user-guideline/knowledge-provider/creating/index.md): Step by Step for `Sharing` applications in the `GEO Knowledge Hub`.

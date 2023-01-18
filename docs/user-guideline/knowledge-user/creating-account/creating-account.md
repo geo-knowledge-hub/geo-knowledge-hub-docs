@@ -61,6 +61,6 @@ You now have an account on the `GEO Knowledge Hub`. With this, you can access th
 
 :::info
 
-By default, the account you create has the [Knowledge User](../../../concepts/user-roles.md#knowledge-user) [role](../../../concepts/user-roles.md). If you wish to become a [Knowledge Provider](../../../concepts/user-roles.md#knowledge-provider), please refer to the section [User role - Knowledge Provider](../../../concepts/user-roles.md#knowledge-provider).
+By default, the account you create has the [User](../../../concepts/user-roles.md#knowledge-user) [role](../../../concepts/user-roles.md). If you wish to become a [Knowledge Provider](../../../concepts/user-roles.md#knowledge-provider), please refer to the section [User role - Knowledge Provider](../../../concepts/user-roles.md#knowledge-provider).
 
 :::

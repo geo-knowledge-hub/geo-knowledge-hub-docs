@@ -18,7 +18,7 @@ Then, in the [Knowledge Package management page](2_deposit-interface.md), using 
     imageAlt={"Preview button"}
 />
 
-When you do this, you will be redirected to the preview page. On this page, you can see how the `metadata`, `files`, and `resources` will be presented to the [Knowledge Users](../../../concepts/user-roles.md#knowledge-user) when they are exploring your *Package*:
+When you do this, you will be redirected to the preview page. On this page, you can see how the `metadata`, `files`, and `resources` will be presented to the [Users](../../../concepts/user-roles.md#knowledge-user) when they are exploring your *Package*:
 
 <ImageContent
     imagePath={KnowledgeDepositSectionResourcePreviewFigure}

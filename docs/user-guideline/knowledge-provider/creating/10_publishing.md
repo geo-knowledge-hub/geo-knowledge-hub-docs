@@ -4,9 +4,14 @@ title: 10. Publishing the Knowledge Package
 sidebar_position: 10
 ---
 
+import Admonition from '@theme/Admonition';
 import ImageContent from '@site/src/components/ImageContent';
 
 import KnowledgeDepositSectionPublishFigure from './assets/25-knowledge-package-publish.png';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
 
 :::caution
 

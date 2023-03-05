@@ -4,6 +4,12 @@ title: GEO Metadata Previewer
 sidebar_position: 3
 ---
 
+:::tip
+
+This functionality has already been implemented and is available in the GEO Knowledge Hub interface. [Click here](http://gkhub.earthobservations.org/) to check it out.
+
+:::
+
 # Geospatial metadata previewer
 
 ## Summary

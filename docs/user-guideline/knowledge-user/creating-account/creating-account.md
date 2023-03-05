@@ -4,12 +4,18 @@ title: Creating an account
 sidebar_position: 4
 ---
 
+import Admonition from '@theme/Admonition';
+
 import ImageContent from '@site/src/components/ImageContent';
 
 import KnowledgeHubPageFigure from "./assets/01-geo-knowledge-hub-page.png";
 import SignUpButtonFigure from "./assets/02-sign-button.png";
 import FillFormFigure from "./assets/03-fillform.png";
 import ConfirmationMessageFigure from "./assets/04-confirmation-message.png";
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
 
 To use the `GEO Knowledge Hub`, at first, it is not necessary to create an account. For example, suppose you want to explore the materials and use the Knowledge Packages. In that case, you do not need to create an account. However, if you wish to [interact with the community](../interacting/interacting.md) or become a [Knowledge Provider](../../../concepts/user-roles.md#knowledge-provider), you need so.
 

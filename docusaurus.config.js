@@ -26,9 +26,6 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
         },
-        blog: {
-          showReadingTime: true,
-        },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -66,16 +63,15 @@ const config = {
           src: "img/base/logo-blue.svg",
         },
         items: [
-          { to: 'showcase', label: 'Showcase', position: 'left' },
           {
             type: "doc",
             docId: "introduction",
             position: "left",
-            label: "Documentation",
+            label: "User guides",
           },
-          { to: "/reference/introduction", label: "Reference", position: "left" },
+          // Temporary disabled
+          // { to: "/reference/introduction", label: "Reference", position: "left" },
           { to: "/development/introduction", label: "Development", position: "left" },
-          { to: "/blog", label: "Blog", position: "left" },
           {
             href: "https://github.com/geo-knowledge-hub",
             label: "GitHub",

@@ -10,6 +10,12 @@ import AcessingDashboardFigure from './assets/01-acessing-my-dashboard.png';
 import MyDashboardFigure from './assets/02-mydashboard.png';
 import EditButtonFigure from './assets/04-editing-button.png';
 
+import Admonition from '@theme/Admonition';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
+
 :::caution
 
 The interfaces and options presented in this documentation page are only available to users with the [Knowledge Providers](../../../concepts/user-roles.md#knowledge-provider) [role](../../../concepts/user-roles.md).

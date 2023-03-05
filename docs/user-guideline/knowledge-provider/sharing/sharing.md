@@ -4,6 +4,8 @@ title: Sharing a published Knowledge Package
 sidebar_position: 5
 ---
 
-**Under development**
+import Admonition from '@theme/Admonition';
 
-### Step-by-step
+<Admonition type="caution" icon="🚧" title="Page under development">
+    <p>This page is under development and will be available soon.</p>
+</Admonition>

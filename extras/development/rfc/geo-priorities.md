@@ -4,6 +4,11 @@ title: GEO Priorities
 sidebar_position: 2
 ---
 
+:::tip
+
+This functionality has already been implemented and is available in the GEO Knowledge Hub interface. [Click here](http://gkhub.earthobservations.org/) to check it out.
+
+:::
 
 # GEO Priorities
 

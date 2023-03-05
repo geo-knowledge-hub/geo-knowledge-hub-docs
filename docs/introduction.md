@@ -4,7 +4,21 @@ title: Introduction
 sidebar_position: 1
 ---
 
+import Admonition from '@theme/Admonition';
+
 # The GEO Knowledge Hub
+
+<Admonition type="caution" icon="🚧" title="Documentation under development">
+    <p>
+        Thank you for your interest in the GEO Knowledge Hub. We would like to inform you that the documentation for the library is currently in its development phase. Our dedicated development team is working hard to create comprehensive guidelines to assist users in effectively utilizing the library's features.
+    </p>
+    <p>
+        As the documentation is still being developed, some pages may need to be completed or undergo revisions. We appreciate your patience and understanding during this process. We are committed to providing high-quality documentation to ensure a seamless user experience.
+    </p>
+    <p>
+        Thank you for your understanding.
+    </p>
+</Admonition>
 
 The `GEO Knowledge Hub` is a central cloud-based digital library providing access to Earth Observations based applications developed by the GEO Work Programme Activities and other authoritative sources of EO based open applications.
 

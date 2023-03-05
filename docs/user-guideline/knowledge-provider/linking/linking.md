@@ -13,6 +13,12 @@ import SubmitToACommunity from './assets/04-submit-to-a-community.png';
 import ReviewingPackage from './assets/05-reviewing-package.png';
 import PublishedPackage from './assets/06-published-package.png';
 
+import Admonition from '@theme/Admonition';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
+
 :::caution
 
 To make a *Knowledge Package* submission with a [community](../../../concepts/communities.md) it is necessary that the *Package* has not yet been [published](../../../concepts/sharing-units/knowledge-packages.md#lifecycle). Otherwise, you will need to recreate the *Package*.

@@ -4,6 +4,12 @@ title: 4. Defining the Knowledge Package visibility
 sidebar_position: 4
 ---
 
+import Admonition from '@theme/Admonition';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
+
 After filling in the metadata, you can set the visibility of the *Knowledge Package*. To do this, use the available options in the [Visibility menu](2_deposit-interface.md).
 
 There are two options available in this menu:

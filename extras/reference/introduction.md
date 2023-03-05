@@ -4,6 +4,8 @@ title: Introduction
 sidebar_position: 1
 ---
 
-# Introduction
+import Admonition from '@theme/Admonition';
 
-**Under development**
+<Admonition type="caution" icon="🚧" title="Page under development">
+    <p>This page is under development and will be available soon.</p>
+</Admonition>

@@ -6,6 +6,7 @@ sidebar_position: 3
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import Admonition from '@theme/Admonition';
 
 import ImageContent from '@site/src/components/ImageContent';
 import TabItemContent from '@site/src/components/TabItemContent';
@@ -19,6 +20,10 @@ import KnowledgeDepositSectionDates from './assets/26-knowledge-package-metadata
 import KnowledgeDepositSectionLocationsFigure from './assets/09-knowledge-package-metadata-section-geometry.png';
 import KnowledgeDepositSectionLicenseFigure from './assets/10-knowledge-package-metadata-section-publisher.png';
 import KnowledgeDepositSectionRelatedWorksFigure from './assets/11-knowledge-package-metadata-section-related-works.png';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
 
 After accessing and understanding the `Deposit interface`, the first step required to create a Knowledge Package is to fill in the metadata fields. These fields are part of the `Knowledge Package metadata` section presented earlier.
 

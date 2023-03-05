@@ -4,9 +4,14 @@ title: 7. Editing Knowledge Resources
 sidebar_position: 7
 ---
 
+import Admonition from '@theme/Admonition';
 import ImageContent from '@site/src/components/ImageContent';
 
 import KnowledgeDepositSectionResourceManagingFigure from './assets/20-knowledge-resource-creating-resource-managing.png';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
 
 After you have added *Knowledge Resources* to the *Package*, you can edit them. To do this, you can use the `Options` button to the right of each of the *Resources* you have created. By clicking on this button, as shown in the figure below, you can do
 

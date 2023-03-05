@@ -13,6 +13,12 @@ import KnowledgeDepositSectionResourceSectionOneFigure from './assets/17-knowled
 import KnowledgeDepositSectionResourceLinkingSectionsFigure from './assets/18-knowledge-resource-creating-resource-associating.png';
 import KnowledgeDepositSectionResourceSectionTwoFigure from './assets/19-knowledge-resource-creating-resource-associating.png';
 
+import Admonition from '@theme/Admonition';
+
+<Admonition type="caution" icon="🚧" title="Page under revision">
+    <p>This page is under revision. The content can be changed.</p>
+</Admonition>
+
 Now, you can add *Knowledge Resources* to the *Package* using the interface. To do this, you can use the `Resources menu`. This menu is divided by types of *Resources*:
 
 - `Dataset`: Allows resources of type Dataset to be added to the Package. In these resources, you can include the input data used in an application, output data, and other auxiliary data;

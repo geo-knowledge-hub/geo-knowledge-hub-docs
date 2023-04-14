@@ -4,7 +4,7 @@ title: Knowledge Resource
 sidebar_position: 2
 ---
 
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 import KnowledgeResourceLifecycle from './assets/knowledge-resource-lifecycle.png';
 
 As mentioned earlier, experts and researchers use and create different materials for an Earth Observation application to be developed. Some examples of these materials are presented below:

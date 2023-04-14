@@ -33,13 +33,13 @@ The scope of the `GEO Knowledge Hub` is to promote the replicability and re-usab
 
 ## Discover
 
-Inside the `GEO Knowledge Hub`, the user will find EO applications organized in Knowledge Packages with all the necessary components (Knowledge Resources). All the Knowledge Resources are directly shared, curated and organized by the Knowledge to ensure replicability with proper documentation.
+Inside the `GEO Knowledge Hub`, the user will find EO Applications organized in Knowledge Packages with all the necessary components (Knowledge Resources). All the Knowledge Resources are directly shared, curated and organized by the Knowledge to ensure replicability with proper documentation.
 
 Each resource has its own page, with the related files and metadata, and every record is linked to a Knowledge Package, allowing the user to see how a particular record such as a dataset or a publication is part of an EO application. In the `GEO Knowledge Hub`, several formats and resource types may be retrieved, including the following:
 
 ## Communities
 
-Experts from the GEO community will use the `GEO Knowledge Hub` to share their work and make it easily reusable by others. The Communities feature of the `GEO Knowledge Hub` will help to organize the content of the EO applications around thematic areas such as GEO Work Programme activities, GEO engagement priorities and Global Policy Frameworks.
+Experts from the GEO community will use the `GEO Knowledge Hub` to share their work and make it easily reusable by others. The Communities feature of the `GEO Knowledge Hub` will help to organize the content of the EO Applications around thematic areas such as GEO Work Programme activities, GEO engagement priorities and Global Policy Frameworks.
 
 The providers, as active members of these communities will have the possibility to manage their knowledge and to curate the records before they are published. End-users will be able to find records that are linked to a specific community, to facilitate retrieval of information.
 

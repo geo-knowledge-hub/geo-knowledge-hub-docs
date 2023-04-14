@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 
 import Admonition from '@theme/Admonition';
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import NewKnowledgePackageButtonFigure from './assets/01-new-knowledge-package-button.png';
 

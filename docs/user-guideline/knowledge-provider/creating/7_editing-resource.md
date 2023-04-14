@@ -5,7 +5,7 @@ sidebar_position: 7
 ---
 
 import Admonition from '@theme/Admonition';
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import KnowledgeDepositSectionResourceManagingFigure from './assets/20-knowledge-resource-creating-resource-managing.png';
 

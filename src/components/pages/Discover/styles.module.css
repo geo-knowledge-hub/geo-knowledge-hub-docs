@@ -1,0 +1,45 @@
+/*
+ * This file is part of GEO Knowledge Hub Docs.
+ * Copyright (C) 2022 GEO Secretariat.
+ *
+ * GEO Knowledge Hub Docs is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
+/* General definitions */
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.margins {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Map description definitions */
+.dcontainer {
+  max-width: 80%;
+}
+
+/* Leaflet definitions */
+.map {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.mcontainer {
+  width: 85%;
+  height: 420px;
+}
+
+.mmargins {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

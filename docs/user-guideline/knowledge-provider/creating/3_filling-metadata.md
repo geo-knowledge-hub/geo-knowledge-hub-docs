@@ -8,8 +8,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 
-import ImageContent from '@site/src/components/ImageContent';
-import TabItemContent from '@site/src/components/TabItemContent';
+import ImageContent from '@site/src/components/content/ImageContent';
+import TabItemContent from '@site/src/components/content/TabItemContent';
 
 import KnowledgeDepositSectionFilesFigure from './assets/04-knowledge-package-metadata-section-files.png';
 import KnowledgeDepositSectionBasicFigure from './assets/05-knowledge-package-metadata-section-basic-information.png';

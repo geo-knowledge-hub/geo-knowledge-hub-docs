@@ -4,7 +4,7 @@ title: 6. Adding Knowledge Resources to the Knowledge Package
 sidebar_position: 6
 ---
 
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import KnowledgeDepositSectionResourceAddingFigure from './assets/14-knowledge-resource-creating-resource.png';
 import KnowledgeDepositSectionResourceCreationFigure from './assets/15-knowledge-resource-creating-resource.png';

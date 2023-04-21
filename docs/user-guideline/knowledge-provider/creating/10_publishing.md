@@ -5,7 +5,7 @@ sidebar_position: 10
 ---
 
 import Admonition from '@theme/Admonition';
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import KnowledgeDepositSectionPublishFigure from './assets/25-knowledge-package-publish.png';
 

@@ -1,4 +1,5 @@
 # GEO Knowledge Hub Documentation
+
 [![License](https://img.shields.io/github/license/geo-knowledge-hub/geo-knowledge-hub-docs.svg)](https://github.com/geo-knowledge-hub/geo-knowledge-hub-docs/blob/master/LICENSE)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![License](https://img.shields.io/discord/730739436551143514?logo=discord&logoColor=ffffff&color=7389D8)](https://discord.com/channels/730739436551143514#)

@@ -4,7 +4,7 @@ title: Knowledge Package
 sidebar_position: 1
 ---
 
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import KnowledgePackageLifecycle from './assets/knowledge-package-lifecycle.png';
 

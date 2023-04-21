@@ -6,7 +6,7 @@ sidebar_position: 4
 
 import Admonition from '@theme/Admonition';
 
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import KnowledgeHubPageFigure from "./assets/01-geo-knowledge-hub-page.png";
 import SignUpButtonFigure from "./assets/02-sign-button.png";

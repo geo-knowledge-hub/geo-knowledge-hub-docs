@@ -1,0 +1,44 @@
+/*
+ * This file is part of GEO Knowledge Hub Docs.
+ * Copyright (C) 2022 GEO Secretariat.
+ *
+ * GEO Knowledge Hub Docs is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
+.section {
+  display: flex;
+  padding: 4rem 0;
+  align-items: center;
+  vertical-align: center;
+  position: relative;
+  font-size: 1rem;
+}
+
+.section.gray {
+  background: #f9f9f9;
+}
+
+div .centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .centered img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Image elements */
+.aboutSectionImage {
+  width: 65%;
+}
+
+.scopeSectionImage {
+  width: 45%;
+}
+
+.packagesResourcesSectionImage {
+  width: 65%;
+}

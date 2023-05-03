@@ -11,4 +11,4 @@ import SearchGuide from '@site/src/components/content/SearchGuide';
     <p>This page is under development and will be finished soon.</p>
 </Admonition>
 
-<SearchGuide />
+<!-- <SearchGuide /> -->

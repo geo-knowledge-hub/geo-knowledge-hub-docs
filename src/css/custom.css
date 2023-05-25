@@ -22,10 +22,6 @@ p {
   text-align: justify;
 }
 
-.hero p {
-  text-align: center;
-}
-
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #374151;
@@ -46,10 +42,6 @@ p {
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
-}
-
-.hero {
-  color: #ebedf0;
 }
 
 .disabled {

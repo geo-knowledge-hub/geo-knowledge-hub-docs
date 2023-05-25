@@ -1,0 +1,87 @@
+/*
+ * This file is part of GEO Knowledge Hub Docs.
+ * Copyright (C) 2022 GEO Secretariat.
+ *
+ * GEO Knowledge Hub Docs is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
+import React from 'react';
+import Layout from '@theme/Layout';
+
+import clsx from 'clsx';
+
+import styles from './releases.module.css';
+
+import ReleaseTimeline from '@site/src/components/pages/ReleaseTimeline';
+
+/* 
+  Page data
+*/
+const productReleases = [
+  {
+    title: 'Version 1.5.0',
+    description: (
+      <>
+        New GEO Knowledge Hub version launched! In this version, the{' '}
+        <code>Featured communities</code> was introduced. Also, we now support
+        the Invenio RDM v11.
+      </>
+    ),
+    badge: 'Major Release',
+    date: 'March 17, 2023',
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.5.0',
+  },
+  {
+    date: 'December 15, 2022',
+    title: 'Version 1.4.1',
+    badge: 'Minor Release',
+    description: (
+      <>
+        In this new minor version of the GEO Knowledge Hub, we have introduced
+        the <code>MailHog</code> as the tool to support the development of
+        e-mail services. Also, some minor bugs were fixed.
+      </>
+    ),
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.4.1',
+  },
+  // more items...
+];
+
+/* 
+  Page component 
+*/
+export default function Releases() {
+  return (
+    <Layout
+      title="Release timeline"
+      description="GEO Knowledge Hub Release timeline"
+    >
+      <header className={clsx('hero shadow--lw margin-top--md', styles.hero)}>
+        <div className="container">
+          <h1 className="hero__title">Releases</h1>
+          <p className="hero__subtitle">
+            Check out the latest GEO Knowledge Hub releases and updates
+          </p>
+        </div>
+      </header>
+
+      <main>
+        <div
+          className={clsx(
+            'margin-top--xl margin-bottom--lg',
+            styles.timelineContainer
+          )}
+        >
+          <div className={'container'}>
+            <div className={'row flex-centered'}>
+              <div className={'col col--11'}>
+                <ReleaseTimeline items={productReleases} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </Layout>
+  );
+}

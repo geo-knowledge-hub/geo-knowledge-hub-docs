@@ -53,22 +53,32 @@ const ContinentsLayer = () => {
       })
       .then((res) => {
         // Generating bounding box for each polygon available
-        const dataMutated = res.data.hits.hits.map((row) => {
-          const rowFeatureCollection = turfHelpers.featureCollection(
-            row.metadata.locations.features
-          );
+        const dataMutated = res.data.hits.hits
+          .map((row) => {
+            const validFeatures = row.metadata.locations.features.filter(
+              (feature) => feature.geometry !== undefined
+            );
 
-          const rowBoundingBox = turfBoundingBox.default(rowFeatureCollection);
-          const rowBoundingBoxPolygon =
-            turfBoundingBoxPolygon.default(rowBoundingBox);
+            if (validFeatures.length === 0) {
+              return null;
+            }
 
-          row.extras = {
-            bbox: rowBoundingBox,
-            bboxPolygon: rowBoundingBoxPolygon,
-          };
+            const rowFeatureCollection =
+              turfHelpers.featureCollection(validFeatures);
 
-          return row;
-        });
+            const rowBoundingBox =
+              turfBoundingBox.default(rowFeatureCollection);
+            const rowBoundingBoxPolygon =
+              turfBoundingBoxPolygon.default(rowBoundingBox);
+
+            row.extras = {
+              bbox: rowBoundingBox,
+              bboxPolygon: rowBoundingBoxPolygon,
+            };
+
+            return row;
+          })
+          .filter((x) => x !== null);
 
         // Intersecting geometries
         rawContinentsData.features.forEach((continentRow) => {

@@ -64,12 +64,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'GEO Knowledge Hub Documentation',
+        title: 'GEO Knowledge Hub',
         logo: {
           alt: 'GEO Knowledge Hub',
           src: 'img/base/logo-gkhub.svg',
         },
         items: [
+          {
+            to: 'https://gkhub.earthobservations.org/feed',
+            position: 'left',
+            label: 'Feed',
+          },
           {
             type: 'doc',
             docId: 'introduction',
@@ -82,6 +87,11 @@ const config = {
             to: '/development/introduction',
             label: 'Development',
             position: 'left',
+          },
+          {
+            to: 'releases',
+            label: 'Releases',
+            position: 'left'
           },
           {
             href: 'https://github.com/geo-knowledge-hub',
@@ -127,10 +137,6 @@ const config = {
           {
             title: 'More',
             items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/geo-knowledge-hub',

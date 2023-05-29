@@ -19,7 +19,7 @@ const config = {
   url:
     process.env.GEO_KNOWLEDGE_HUB_DOCS_URL ||
     'https://gkhub.earthobservations.org/',
-  baseUrl: process.env.GEO_KNOWLEDGE_HUB_DOCS_BASE_URL || '/doc/',
+  baseUrl: '/doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

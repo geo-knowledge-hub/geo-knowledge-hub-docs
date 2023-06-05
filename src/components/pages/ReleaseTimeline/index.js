@@ -44,7 +44,7 @@ const TimelineItem = ({ date, title, badge, description, link }) => {
             >
               <button
                 className="button button--secondary"
-                onClick={() => (window.location.href = link)}
+                onClick={() => window.open(link, '_blank').focus()}
               >
                 Learn more
               </button>
@@ -56,12 +56,26 @@ const TimelineItem = ({ date, title, badge, description, link }) => {
   );
 };
 
-const ReleaseTimeline = ({ items }) => {
+const ReleaseTimeline = ({ items, moreUrl }) => {
   return (
-    <div className={styles.timeline}>
-      {items.map((item, index) => (
-        <TimelineItem key={index} {...item} />
-      ))}
+    <div>
+      <div className={styles.timeline}>
+        {items.map((item, index) => (
+          <TimelineItem key={index} {...item} />
+        ))}
+      </div>
+      <div className={styles.moreButtonContainer}>
+        <div className={styles.moreButton}>
+          <button
+            className={'button button--block button--secondary'}
+            onClick={() => {
+              window.open(moreUrl, '_blank').focus();
+            }}
+          >
+            More
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

@@ -74,6 +74,7 @@ const config = {
             to: 'https://gkhub.earthobservations.org/feed',
             position: 'left',
             label: 'Feed',
+            target: '_self'
           },
           {
             type: 'doc',

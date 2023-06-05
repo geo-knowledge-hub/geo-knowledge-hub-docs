@@ -6,7 +6,7 @@
  * under the terms of the MIT License; see LICENSE file for more details.
  */
 
-.timelineItem {
+ .timelineItem {
   position: relative;
   width: 100%;
 }
@@ -46,6 +46,13 @@
   margin-left: -5px;
   border-radius: 50%;
   background-color: var(--ifm-color-primary);
+}
+
+.moreButtonContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1000px) {

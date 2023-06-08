@@ -83,10 +83,10 @@ export const SearchPanel = ({ searchQueryExamples, itemsPerPage = 3 }) => {
       <div className={'row'}>
         <div className={styles.segment}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi est
-            sit amet facilisis magna. Donec massa sapien faucibus et molestie ac
-            feugiat sed. Tincidunt lobortis feugiat vivamus at augue eget arcu.
+            These tabs show examples of each query type that can be performed in
+            GEO Knowledge Hub. Start exploring by clicking on the tabs. In the
+            desired tab, choose the example query and use it. You can edit the
+            example and adapt it to your needs.
           </p>
           <ul className={'pills pills--block'}>
             {themes
@@ -135,7 +135,8 @@ export const SearchPanel = ({ searchQueryExamples, itemsPerPage = 3 }) => {
                           const exampleValue = document.getElementById(
                             `${example.title}-${index}`
                           ).innerText;
-                          const exampleUrl = `${gkhubApiAddress}/search?q=${exampleValue}`;
+                          const componentsUrl = encodeURIComponent(`${exampleValue}`);
+                          const exampleUrl = `${gkhubApiAddress}/search?q=${componentsUrl}`;
 
                           window.open(exampleUrl);
                         }}

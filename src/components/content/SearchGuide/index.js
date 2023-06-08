@@ -143,7 +143,7 @@ const SearchGuide = () => {
     },
     {
       title: 'Example 2',
-      description: <span>Other example using fields and basic queries</span>,
+      description: <span>Other example using fields and basic queries.</span>,
       type: 'Basic',
       theme: 'Combined',
       code: 'metadata.title:(-open +science)',
@@ -180,7 +180,7 @@ const SearchGuide = () => {
       title: 'Example 2',
       description: (
         <span>
-          Use square brackets (<code>[]</code>) for <i>inclusive ranges</i> (all dates from 2019 to 2022, including the first day of 2019 and the first day of 2022)
+          Use square brackets (<code>[]</code>) for <i>inclusive ranges</i> (all dates from 2019 to 2022, including the first day of 2019 and the first day of 2022).
         </span>
       ),
       type: 'Basic',
@@ -191,7 +191,7 @@ const SearchGuide = () => {
       title: 'Example 3',
       description: (
         <span>
-          Use curly brackets (<code>{'{'}{'}'}</code>) for <i>exclusive ranges</i> (all dates from 2019 to 2022, excluding the first day of 2019 and the first day of 2022)
+          Use curly brackets (<code>{'{'}{'}'}</code>) for <i>exclusive ranges</i> (all dates from 2019 to 2022, excluding the first day of 2019 and the first day of 2022).
         </span>
       ),
       type: 'Basic',
@@ -216,7 +216,7 @@ const SearchGuide = () => {
       description: (
         <div>
           <div>
-            Regular expressions are a powerful pattern matching language that allow to search for specific patterns in a field. For instance if you want to find all records with a DOI-prefix <code>10.1080</code>
+            Regular expressions are a powerful pattern matching language that allow to search for specific patterns in a field. For instance if you want to find all records with a DOI-prefix <code>10.1080</code>.
           </div>
 
           <br />
@@ -247,7 +247,7 @@ const SearchGuide = () => {
       title: 'Example 1',
       description: (
         <span>
-          You can search for terms similar to but not exactly like your search term using the fuzzy operator <code>~</code>
+          You can search for terms similar to but not exactly like your search term using the fuzzy operator <code>~</code>. For example, fuzziness with something like "cube".
         </span>
       ),
       type: 'Advanced',

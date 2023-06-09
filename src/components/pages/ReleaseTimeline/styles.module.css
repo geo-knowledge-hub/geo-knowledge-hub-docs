@@ -1,0 +1,70 @@
+/*
+ * This file is part of GEO Knowledge Hub Docs.
+ * Copyright (C) 2022 GEO Secretariat.
+ *
+ * GEO Knowledge Hub Docs is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
+ .timelineItem {
+  position: relative;
+  width: 100%;
+}
+
+.card {
+  transition: box-shadow 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexEnd {
+  justify-content: flex-end;
+}
+
+.date {
+  text-align: right;
+}
+
+.line {
+  height: 100%;
+  border-left: 1px solid var(--ifm-color-primary);
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  border-radius: 50%;
+  background-color: var(--ifm-color-primary);
+}
+
+.moreButtonContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .line {
+    display: none;
+  }
+
+  .circle {
+    display: none;
+  }
+
+  .date {
+    text-align: left;
+  }
+}

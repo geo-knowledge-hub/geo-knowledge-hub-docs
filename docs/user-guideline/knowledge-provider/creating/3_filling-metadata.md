@@ -8,8 +8,8 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
 
-import ImageContent from '@site/src/components/ImageContent';
-import TabItemContent from '@site/src/components/TabItemContent';
+import ImageContent from '@site/src/components/content/ImageContent';
+import TabItemContent from '@site/src/components/content/TabItemContent';
 
 import KnowledgeDepositSectionFilesFigure from './assets/04-knowledge-package-metadata-section-files.png';
 import KnowledgeDepositSectionBasicFigure from './assets/05-knowledge-package-metadata-section-basic-information.png';
@@ -190,11 +190,11 @@ To help you fill in this metadata, below is a table where each field is describe
         />
     </TabItemContent>
     <TabItemContent
-        value="related-works"
-        label="Related works"
+        value="related-links"
+        label="Related Links"
     >
-        <h2>Related works</h2>
-        The <code>Related works</code> section is where you can define all the works related to the <i>Knowledge Package</i> you are creating. This includes all kinds of material, from presentations to other <i>Knowledge Packages</i>.
+        <h2>Related links</h2>
+        The <code>Related links</code> section is where you can define all the materials related to the <i>Knowledge Package</i> you are creating. This includes all kinds of material, from presentations to other <i>Knowledge Packages</i>.
         <br />
         <br />
         <div>
@@ -202,7 +202,7 @@ To help you fill in this metadata, below is a table where each field is describe
         </div>
         <ImageContent
             imagePath={KnowledgeDepositSectionRelatedWorksFigure}
-            imageAlt={"Related works section"}
+            imageAlt={"Related links section"}
         />
     </TabItemContent>
 </Tabs>

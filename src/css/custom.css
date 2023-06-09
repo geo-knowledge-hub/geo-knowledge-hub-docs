@@ -1,3 +1,11 @@
+/*
+ * This file is part of GEO Knowledge Hub Docs.
+ * Copyright (C) 2022 GEO Secretariat.
+ *
+ * GEO Knowledge Hub Docs is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -12,10 +20,6 @@
 
 p {
   text-align: justify;
-}
-
-.hero p {
-  text-align: center;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -40,8 +44,10 @@ p {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.hero {
-  color: #EBEDF0;
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
 }
 
 .centered {
@@ -59,4 +65,25 @@ p {
 .tiny-image {
   width: 320px;
   height: auto;
+}
+
+/* General component classes */
+.header-margin {
+  margin-top: 30px;
+}
+
+.h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 0 2rem;
+}
+
+.p {
+  font-size: 1.2rem;
+}
+
+.flex-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

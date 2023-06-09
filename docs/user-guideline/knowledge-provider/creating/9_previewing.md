@@ -5,7 +5,7 @@ sidebar_position: 9
 ---
 
 import Admonition from '@theme/Admonition';
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import KnowledgeDepositSectionResourcePreviewButtonFigure from './assets/23-knowledge-package-preview-button.png';
 import KnowledgeDepositSectionResourcePreviewFigure from './assets/24-knowledge-package-preview.png';

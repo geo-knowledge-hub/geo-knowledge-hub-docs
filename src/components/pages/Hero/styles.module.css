@@ -1,0 +1,33 @@
+/*
+ * This file is part of GEO Knowledge Hub Docs.
+ * Copyright (C) 2022 GEO Secretariat.
+ *
+ * GEO Knowledge Hub Docs is free software; you can redistribute it and/or modify it
+ * under the terms of the MIT License; see LICENSE file for more details.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSubtext {
+  max-width: 70%;
+  text-align: center;
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+.leftAligned {
+  text-align: left;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}

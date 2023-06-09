@@ -4,7 +4,7 @@ title: Submitting a Knowledge Package to a community
 sidebar_position: 3
 ---
 
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import CommunityAreaFigure from './assets/01-community-area.png';
 import SelectCommunityFigure from './assets/02-select-a-community.png';

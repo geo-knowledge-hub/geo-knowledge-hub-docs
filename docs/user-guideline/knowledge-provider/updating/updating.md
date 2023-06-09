@@ -4,7 +4,7 @@ title: Updating an existing Knowledge Package
 sidebar_position: 2
 ---
 
-import ImageContent from '@site/src/components/ImageContent';
+import ImageContent from '@site/src/components/content/ImageContent';
 
 import AcessingDashboardFigure from './assets/01-acessing-my-dashboard.png';
 import MyDashboardFigure from './assets/02-mydashboard.png';

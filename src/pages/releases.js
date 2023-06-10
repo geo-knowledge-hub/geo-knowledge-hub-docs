@@ -23,6 +23,23 @@ const moreUrl =
 
 const productReleases = [
   {
+    title: 'Version 1.6.0',
+    description: (
+      <div>
+        <div>
+          In this new version of the GEO Knowledge Hub, we have introduced improvements to the package management interface, revised DOI Mint operations, and general improvements to our infrastructure.
+        </div>
+
+        <div>
+          This version also introduces the integration of the GEO Knowledge Hub with the GEO Knowledge Hub Feed component.
+        </div>
+      </div>
+    ),
+    badge: 'Major Release',
+    date: 'June 10, 2023',
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.6.0',
+  },
+  {
     title: 'Version 1.5.0',
     description: (
       <>
@@ -57,25 +74,6 @@ const productReleases = [
       </>
     ),
     link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.4.1',
-  },
-  {
-    date: 'October 29, 2022',
-    title: 'Version 1.4.0',
-    badge: 'Major Release',
-    description: (
-      <>
-        In this version, based on{' '}
-        <a
-          href="https://inveniordm.docs.cern.ch/releases/versions/version-v9.0.0/"
-          target="_blank"
-        >
-          InvenioRDM v9.0
-        </a>{' '}
-        we now have <code>Communities</code> support. We also introduced
-        specialized APIs to manage Knowledge Packages and their resources.
-      </>
-    ),
-    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.4.0',
   },
 ];
 

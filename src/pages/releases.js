@@ -31,7 +31,7 @@ const productReleases = [
         </div>
 
         <div>
-          This version also introduces the integration of the GEO Knowledge Hub with the GEO Knowledge Hub Feed component.
+          This version also introduces the integration of the GEO Knowledge Hub with the <a href='https://gkhub.earthobservations.org/feed/' target='_blank'>GEO Knowledge Hub Feed</a> component.
         </div>
       </div>
     ),

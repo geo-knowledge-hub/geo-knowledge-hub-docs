@@ -77,6 +77,11 @@ const config = {
             target: '_self'
           },
           {
+            to: 'events',
+            label: 'Training and events',
+            position: 'left'
+          },
+          {
             type: 'doc',
             docId: 'introduction',
             position: 'left',

@@ -26,7 +26,7 @@ import {
   Page data
 */
 const fetchUrl =
-  'http://localhost:1337/api/events?sort[0]=date&pagination[limit]=3';
+  'https://gkhub.earthobservations.org:8443/api/events?sort[0]=date&pagination[limit]=50';
 
 /* 
   Page component 

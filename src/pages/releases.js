@@ -23,6 +23,19 @@ const moreUrl =
 
 const productReleases = [
   {
+    title: 'Version 1.6.1',
+    description: (
+      <div>
+        <div>
+          We have recreated the Front page in this new version of the GEO Knowledge Hub. Also, we added a new component to present User Stories on the Knowledge Package landing page.
+        </div>
+      </div>
+    ),
+    badge: 'Minor Release',
+    date: 'August 22, 2023',
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.6.1',
+  },
+  {
     title: 'Version 1.6.0',
     description: (
       <div>
@@ -58,22 +71,6 @@ const productReleases = [
     badge: 'Major Release',
     date: 'March 17, 2023',
     link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.5.0',
-  },
-  {
-    date: 'January 10, 2023',
-    title: 'Version 1.4.1',
-    badge: 'Minor Release',
-    description: (
-      <>
-        In this new version of the GEO Knowledge Hub, we have introduced{' '}
-        <a href="https://github.com/mailhog/MailHog" target="_blank">
-          MailHog
-        </a>{' '}
-        as the tool to support the development of e-mail services. Also, some
-        minor bugs were fixed.
-      </>
-    ),
-    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.4.1',
   },
 ];
 

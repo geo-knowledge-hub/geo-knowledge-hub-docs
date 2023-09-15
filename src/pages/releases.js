@@ -23,6 +23,27 @@ const moreUrl =
 
 const productReleases = [
   {
+    title: 'Version 1.6.2',
+    description: (
+      <div>
+        <div>
+          In this new version of the GEO Knowledge Hub, we introduced two new
+          features:{' '}
+          <a
+            href="https://github.com/geo-knowledge-hub/geo-user-dashboard"
+            target="_blank"
+          >
+            User Dashboard for Knowledge Providers
+          </a>{' '}
+          and Support for <code>Request Training</code> on Knowledge Packages.
+        </div>
+      </div>
+    ),
+    badge: 'Minor Release',
+    date: 'September 1, 2023',
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.6.2',
+  },
+  {
     title: 'Version 1.6.1',
     description: (
       <div>

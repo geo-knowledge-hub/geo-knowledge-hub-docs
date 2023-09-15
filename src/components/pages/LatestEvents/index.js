@@ -17,9 +17,6 @@ import styles from './styles.module.css';
  * Event Item component.
  */
 const EventItem = ({ eventData }) => {
-  console.log('eventData');
-  console.log(eventData);
-
   return (
     <div className={clsx('padding-vert--md', styles.timelineItem)}>
       <div className="row">

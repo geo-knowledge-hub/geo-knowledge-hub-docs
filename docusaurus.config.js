@@ -25,6 +25,13 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'GEO Secretariat',
   projectName: 'geo-knowledge-hub-docs',
+  scripts: [
+    {
+      src: 'https://gkhub.earthobservations.org:12443/js/script.js',
+      defer: true,
+      'data-domain': 'gkhub.earthobservations.org'
+    }
+  ],
   presets: [
     [
       'classic',
@@ -39,7 +46,6 @@ const config = {
       }),
     ],
   ],
-
   plugins: [
     [
       '@docusaurus/plugin-content-docs',

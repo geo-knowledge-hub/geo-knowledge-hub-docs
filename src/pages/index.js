@@ -7,9 +7,9 @@
  */
 
 import React, { lazy, Suspense } from 'react';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 // Leaflet
-import 'leaflet.fullscreen';
 import 'leaflet/dist/leaflet.css';
 
 // Leaflet Fullscreen
@@ -19,9 +19,10 @@ import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
 
 import Hero from '@site/src/components/pages/Hero';
-import Discover from '@site/src/components/pages/Discover';
 import Platform from '@site/src/components/pages/Platform';
 import Contribute from '@site/src/components/pages/Contribute';
+
+const Discover = lazy(() => import('../components/pages/Discover'));
 
 import { fetchPackages } from '../resources';
 
@@ -74,7 +75,16 @@ const HomeComponent = () => {
       </section>
 
       <section>
-        <Discover records={records || []} searchEndpoint={searchEndpoint} />
+        <BrowserOnly fallback={<div></div>}>
+          {() => (
+            <Suspense fallback={<div></div>}>
+              <Discover
+                records={records || []}
+                searchEndpoint={searchEndpoint}
+              />
+            </Suspense>
+          )}
+        </BrowserOnly>
       </section>
 
       <section>

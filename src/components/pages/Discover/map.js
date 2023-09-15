@@ -9,6 +9,8 @@
 import React from 'react';
 import clsx from 'clsx';
 
+import 'leaflet.fullscreen';
+
 import { createControlComponent } from '@react-leaflet/core';
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 

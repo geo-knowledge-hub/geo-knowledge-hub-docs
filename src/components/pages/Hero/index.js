@@ -31,8 +31,8 @@ const Hero = () => {
         </div>
         <div className={'flex-centered'}>
           <div className={'container'}>
-            <div className={'row'}>
-              <div className={clsx('col col--6', styles.rightAligned)}>
+            <div className={clsx('row', styles.buttonContainer)}>
+              <div>
                 <a
                   className="button button--secondary button--lg"
                   href={'https://gkhub.earthobservations.org/'}
@@ -40,7 +40,7 @@ const Hero = () => {
                   Explore now
                 </a>
               </div>
-              <div className={clsx('col col--6', styles.leftAligned)}>
+              <div>
                 <Link
                   className="button button--secondary button--lg"
                   to="/docs/introduction"

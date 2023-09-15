@@ -9,7 +9,7 @@
 /* General definitions */
 .section {
   display: flex;
-  padding: 4rem 0;
+  padding: 2rem 0;
   align-items: center;
   vertical-align: center;
   position: relative;
@@ -26,7 +26,16 @@ div .centered {
   align-items: center;
 }
 
+/* Button configuration */
+.buttonContainer {
+  margin-top: 3rem;
+}
+
 /* Image configuration */
 .imageConfig {
-  width: 65%;
+  width: 320px;
+}
+
+.imageContainer {
+  margin-top: 2rem;
 }

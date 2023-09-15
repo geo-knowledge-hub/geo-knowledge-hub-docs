@@ -13,10 +13,12 @@ import styles from './styles.module.css';
 /**
  * Spinner loading component.
  */
-export const SpinnerLoading = () => {
+const SpinnerLoading = () => {
   return (
     <div className={styles.spinnerContainer}>
       <div className={styles.spinner}></div>
     </div>
   );
 };
+
+export default SpinnerLoading;

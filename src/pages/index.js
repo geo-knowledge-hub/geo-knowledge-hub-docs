@@ -21,6 +21,7 @@ import Head from '@docusaurus/Head';
 import Hero from '@site/src/components/pages/Hero';
 import Platform from '@site/src/components/pages/Platform';
 import Contribute from '@site/src/components/pages/Contribute';
+import SpinnerLoading from '@site/src/components/utils/SpinnerLoading';
 
 const Discover = lazy(() => import('../components/pages/Discover'));
 
@@ -75,9 +76,9 @@ const HomeComponent = () => {
       </section>
 
       <section>
-        <BrowserOnly fallback={<div></div>}>
+        <BrowserOnly fallback={<SpinnerLoading />}>
           {() => (
-            <Suspense fallback={<div></div>}>
+            <Suspense fallback={<SpinnerLoading />}>
               <Discover
                 records={records || []}
                 searchEndpoint={searchEndpoint}

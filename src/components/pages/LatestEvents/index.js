@@ -9,15 +9,20 @@
 import React from 'react';
 import clsx from 'clsx';
 
+import _orderBy from 'lodash/orderBy';
+
 import styles from './styles.module.css';
 
+/**
+ * Event Item component.
+ */
 const EventItem = ({ eventData }) => {
   return (
     <div className={clsx('padding-vert--md', styles.timelineItem)}>
       <div className="row">
         <div className={'col col--2'}>
           <div className={styles.date}>
-            <h4>{eventData.date}</h4>
+            <h4>{eventData.date.toUTCString()}</h4>
           </div>
         </div>
         <div className={'col col--1'}>
@@ -26,29 +31,28 @@ const EventItem = ({ eventData }) => {
         </div>
         <div className="col col--9">
           <div className={clsx('card', styles.card)}>
-            <div className={clsx('card__header', styles.flexContainer)}>
-              <h3>{eventData.title}</h3>
-              <div>
-                <span className="badge badge--primary">
+            <div className={clsx('card__header', styles.titleContainer)}>
+              <div className={styles.badgeContainer}>
+                <span className={'badge badge--primary'}>
                   {eventData.category}
                 </span>
+
+                {eventData.isPastEvent ? (
+                  <span className={'badge badge--warning'}>Done</span>
+                ) : (
+                  <span className={'badge badge--success'}>Upcoming</span>
+                )}
               </div>
+              <h3 className={styles.cardTitle}>{eventData.title}</h3>
             </div>
-            <div className="card__body">
+            <div className={'card__body'}>
               <div className={styles.description}>
                 <p>{eventData.description}</p>
               </div>
             </div>
-            <div
-              className={clsx(
-                'card__footer',
-                styles.flexContainer,
-                styles.flexEnd,
-                styles.moreButtonContainer
-              )}
-            >
+            <div className={clsx('card__footer', styles.footerContainer)}>
               <button
-                className="button button--secondary"
+                className={'button button--secondary'}
                 onClick={() => window.open(eventData.url, '_blank').focus()}
               >
                 Learn more
@@ -61,11 +65,17 @@ const EventItem = ({ eventData }) => {
   );
 };
 
+/**
+ * Latest events component.
+ */
 const LatestEvents = ({ events }) => {
+  // Sort events by date
+  const sortedEvents = _orderBy(events, 'date', ['desc']);
+
   return (
     <div>
       <div className={styles.timeline}>
-        {events.map((event, index) => (
+        {sortedEvents.map((event, index) => (
           <EventItem key={index} eventData={event} />
         ))}
       </div>

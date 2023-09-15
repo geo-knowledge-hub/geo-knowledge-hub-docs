@@ -11,9 +11,10 @@ import Layout from '@theme/Layout';
 
 import clsx from 'clsx';
 
-import styles from './releases.module.css';
-
 import LatestEvents from '@site/src/components/pages/LatestEvents';
+import SpinnerLoading from '@site/src/components/utils/SpinnerLoading';
+
+import styles from './releases.module.css';
 
 import { fetchEvents } from '../resources';
 import {
@@ -46,14 +47,22 @@ function Events() {
   });
 
   const mutatedEvents = !isFetching
-    ? events.map((row) => ({
-        title: row.attributes.title,
-        description: row.attributes.description,
-        category: row.attributes.category,
-        date: new Date(row.attributes.date).toUTCString(),
-        location: row.attributes.location,
-        url: row.attributes.url,
-      }))
+    ? events.map((row) => {
+        const currentDate = new Date();
+        const rowDate = new Date(row.attributes.date);
+
+        const isPastEvent = currentDate > rowDate;
+
+        return {
+          title: row.attributes.title,
+          description: row.attributes.description,
+          category: row.attributes.category,
+          date: rowDate,
+          location: row.attributes.location,
+          url: row.attributes.url,
+          isPastEvent: isPastEvent,
+        };
+      })
     : [];
 
   return (
@@ -81,7 +90,11 @@ function Events() {
           <div className={'container'}>
             <div className={'row flex-centered'}>
               <div className={'col col--11'}>
-                <LatestEvents events={mutatedEvents} />
+                {isFetching ? (
+                  <SpinnerLoading />
+                ) : (
+                  <LatestEvents events={mutatedEvents} />
+                )}
               </div>
             </div>
           </div>

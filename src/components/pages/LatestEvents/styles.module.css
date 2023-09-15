@@ -26,14 +26,23 @@
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
-.flexContainer {
+.titleContainer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
 }
 
-.flexEnd {
+.badgeContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.footerContainer {
+  display: flex;
   justify-content: flex-end;
+
+  padding: 3px 10px 16px 16px;
 }
 
 .date {
@@ -52,10 +61,6 @@
   margin-left: -5px;
   border-radius: 50%;
   background-color: var(--ifm-color-primary);
-}
-
-.moreButtonContainer {
-  padding: 5px 10px 16px 16px;
 }
 
 @media only screen and (max-width: 1000px) {

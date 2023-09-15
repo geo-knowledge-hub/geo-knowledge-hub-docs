@@ -12,11 +12,11 @@ import clsx from 'clsx';
 import _isEmpty from 'lodash/isEmpty';
 
 import { DiscoverMap } from './map';
-import { SpinnerLoading } from './loader';
-
 import { calculatePackagesInContinents } from './toolbox';
 
 import styles from './styles.module.css';
+
+import SpinnerLoading from '../../utils/SpinnerLoading';
 
 /**
  * Discover component.
@@ -27,9 +27,6 @@ const Discover = ({ records, searchEndpoint }) => {
 
   // Check if map render is ready
   const isMapRenderDataReady = !_isEmpty(records);
-
-  console.log('isMapRenderDataReady');
-  console.log(isMapRenderDataReady);
 
   return (
     <div className={clsx(styles.section)}>

@@ -9,6 +9,7 @@
 import React, { lazy, Suspense } from 'react';
 
 // Leaflet
+import 'leaflet.fullscreen';
 import 'leaflet/dist/leaflet.css';
 
 // Leaflet Fullscreen
@@ -16,45 +17,53 @@ import 'leaflet.fullscreen/Control.FullScreen.css';
 
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
-import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import Hero from '@site/src/components/pages/Hero';
+import Discover from '@site/src/components/pages/Discover';
 import Platform from '@site/src/components/pages/Platform';
 import Contribute from '@site/src/components/pages/Contribute';
 
-const Discover = lazy(() => import('../components/pages/Discover'));
+import { fetchPackages } from '../resources';
 
-/**
- * Home page component.
- */
-const HomePage = () => {
-  // Add Netlify Identity script
-  if (typeof window !== 'undefined') {
-    // browser code
-    const document = window.document;
-    let script = document.createElement('script');
-    script.innerHTML = `
-        if (window.netlifyIdentity) {
-          window.netlifyIdentity.on("init", user => {
-            if (!user) {
-              window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-              });
-            }
-          });
-        }
-      `;
-    document.head.appendChild(script);
-  }
+import {
+  QueryClient,
+  QueryClientProvider,
+  useQuery,
+} from '@tanstack/react-query';
+
+/* 
+  Page data
+*/
+const fetchEndpoint = '/api/packages';
+const fetchUrl = 'https://gkhub.earthobservations.org';
+
+const searchEndpoint = 'https://gkhub.earthobservations.org/search';
+
+/* 
+  Page component 
+*/
+const HomeComponent = () => {
+  // Hooks
+  const { data: records } = useQuery({
+    queryKey: ['map-records'],
+    queryFn: () => {
+      return fetchPackages(fetchEndpoint, {
+        baseURL: fetchUrl,
+        params: {
+          q: '_exists_:metadata.locations',
+          size: 150,
+        },
+      });
+    },
+    staleTime: 300000, // 5 minutes
+  });
 
   return (
     <Layout
       title={'Documentation'}
       description="GEO Knowledge Hub Documentation page"
     >
-      <Head>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-      </Head>
+      <Head />
 
       <main>
         <Hero />
@@ -65,19 +74,26 @@ const HomePage = () => {
       </section>
 
       <section>
-        <BrowserOnly fallback={<div>Loading...</div>}>
-          {() => (
-            <Suspense fallback={<div>Loading...</div>}>
-              <Discover />
-            </Suspense>
-          )}
-        </BrowserOnly>
+        <Discover records={records || []} searchEndpoint={searchEndpoint} />
       </section>
 
       <section>
         <Contribute />
       </section>
     </Layout>
+  );
+};
+
+/**
+ * Home page component.
+ */
+const HomePage = () => {
+  const queryClient = new QueryClient();
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <HomeComponent />
+    </QueryClientProvider>
   );
 };
 

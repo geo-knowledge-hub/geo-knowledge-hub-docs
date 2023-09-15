@@ -9,27 +9,54 @@
 import React from 'react';
 import clsx from 'clsx';
 
+import _isEmpty from 'lodash/isEmpty';
+
 import { DiscoverMap } from './map';
+import { SpinnerLoading } from './loader';
+
+import { calculatePackagesInContinents } from './toolbox';
 
 import styles from './styles.module.css';
 
-const Discover = () => (
-  <div className={clsx(styles.section)}>
-    <div className={'container'}>
-      <h2 className={'h2'}>Discover</h2>
-      <div className={styles.centered}>
-        <div className={styles.descriptionContainer}>
-          <p className={'p padded'}>
-            Presently, the GEO Knowledge Hub offers a diverse array of EO
-            Applications. Please utilize the interactive map provided below to
-            embark on a courteous and comprehensive exploration of these
-            applications by continent.
-          </p>
+/**
+ * Discover component.
+ */
+const Discover = ({ records, searchEndpoint }) => {
+  // Preparing data
+  const continentsData = calculatePackagesInContinents(records);
+
+  // Check if map render is ready
+  const isMapRenderDataReady = !_isEmpty(records);
+
+  console.log('isMapRenderDataReady');
+  console.log(isMapRenderDataReady);
+
+  return (
+    <div className={clsx(styles.section)}>
+      <div className={'container'}>
+        <h2 className={'h2'}>Discover</h2>
+        <div className={styles.centered}>
+          <div className={styles.descriptionContainer}>
+            <p className={'p padded'}>
+              Presently, the GEO Knowledge Hub offers a diverse array of EO
+              Applications. Please utilize the interactive map provided below to
+              embark on a courteous and comprehensive exploration of these
+              applications by continent.
+            </p>
+          </div>
         </div>
+
+        {isMapRenderDataReady ? (
+          <DiscoverMap
+            continentsData={continentsData}
+            searchEndpoint={searchEndpoint}
+          />
+        ) : (
+          <SpinnerLoading />
+        )}
       </div>
-      <DiscoverMap />
     </div>
-  </div>
-);
+  );
+};
 
 export default Discover;

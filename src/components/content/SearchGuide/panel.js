@@ -135,7 +135,9 @@ export const SearchPanel = ({ searchQueryExamples, itemsPerPage = 3 }) => {
                           const exampleValue = document.getElementById(
                             `${example.title}-${index}`
                           ).innerText;
-                          const componentsUrl = encodeURIComponent(`${exampleValue}`);
+                          const componentsUrl = encodeURIComponent(
+                            `${exampleValue}`
+                          );
                           const exampleUrl = `${gkhubApiAddress}/search?q=${componentsUrl}`;
 
                           window.open(exampleUrl);

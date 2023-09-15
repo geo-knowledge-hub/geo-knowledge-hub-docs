@@ -19,12 +19,12 @@ const Discover = () => (
       <h2 className={'h2'}>Discover</h2>
       <div className={styles.centered}>
         <div className={styles.descriptionContainer}>
-        <p className={'p padded'}>
-          Presently, the GEO Knowledge Hub offers a diverse array of EO
-          Applications. Please utilize the interactive map provided below to
-          embark on a courteous and comprehensive exploration of these
-          applications by continent.
-        </p>
+          <p className={'p padded'}>
+            Presently, the GEO Knowledge Hub offers a diverse array of EO
+            Applications. Please utilize the interactive map provided below to
+            embark on a courteous and comprehensive exploration of these
+            applications by continent.
+          </p>
         </div>
       </div>
       <DiscoverMap />

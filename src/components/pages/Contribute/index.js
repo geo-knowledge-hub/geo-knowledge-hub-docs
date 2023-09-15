@@ -45,7 +45,14 @@ const ContributeSection = () => {
               </a>
             </div>
           </div>
-          <div className={clsx('col', 'col--6', styles.centered, styles.imageContainer)}>
+          <div
+            className={clsx(
+              'col',
+              'col--6',
+              styles.centered,
+              styles.imageContainer
+            )}
+          >
             <img
               src={useBaseUrl('/img/frontpage/sharing-knowledge.svg')}
               alt="Sharing Knowledge image"

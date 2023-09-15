@@ -180,7 +180,9 @@ const SearchGuide = () => {
       title: 'Example 2',
       description: (
         <span>
-          Use square brackets (<code>[]</code>) for <i>inclusive ranges</i> (all dates from 2019 to 2022, including the first day of 2019 and the first day of 2022).
+          Use square brackets (<code>[]</code>) for <i>inclusive ranges</i> (all
+          dates from 2019 to 2022, including the first day of 2019 and the first
+          day of 2022).
         </span>
       ),
       type: 'Basic',
@@ -191,7 +193,13 @@ const SearchGuide = () => {
       title: 'Example 3',
       description: (
         <span>
-          Use curly brackets (<code>{'{'}{'}'}</code>) for <i>exclusive ranges</i> (all dates from 2019 to 2022, excluding the first day of 2019 and the first day of 2022).
+          Use curly brackets (
+          <code>
+            {'{'}
+            {'}'}
+          </code>
+          ) for <i>exclusive ranges</i> (all dates from 2019 to 2022, excluding
+          the first day of 2019 and the first day of 2022).
         </span>
       ),
       type: 'Basic',
@@ -202,9 +210,10 @@ const SearchGuide = () => {
       title: 'Example 4',
       description: (
         <span>
-          Use <code>*</code> to represent <i>any date</i>. For example, a query to
-          search for all publication dates until 2017. Square and curly brackets
-          can be used following the same rule defined in the previous examples.
+          Use <code>*</code> to represent <i>any date</i>. For example, a query
+          to search for all publication dates until 2017. Square and curly
+          brackets can be used following the same rule defined in the previous
+          examples.
         </span>
       ),
       type: 'Basic',
@@ -216,14 +225,24 @@ const SearchGuide = () => {
       description: (
         <div>
           <div>
-            Regular expressions are a powerful pattern matching language that allow to search for specific patterns in a field. For instance if you want to find all records with a DOI-prefix <code>10.1080</code>.
+            Regular expressions are a powerful pattern matching language that
+            allow to search for specific patterns in a field. For instance if
+            you want to find all records with a DOI-prefix <code>10.1080</code>.
           </div>
 
           <br />
 
           <Admonition type="note" icon="💡" title="Tip">
             <div>
-              Careful, the regular expression must match the entire field value. See the <a href="https://opensearch.org/docs/1.2/opensearch/query-dsl/term/#regex" target="_blank">regular expression syntax for further details</a>.
+              Careful, the regular expression must match the entire field value.
+              See the{' '}
+              <a
+                href="https://opensearch.org/docs/1.2/opensearch/query-dsl/term/#regex"
+                target="_blank"
+              >
+                regular expression syntax for further details
+              </a>
+              .
             </div>
           </Admonition>
         </div>
@@ -236,7 +255,12 @@ const SearchGuide = () => {
       title: 'Example 1',
       description: (
         <span>
-          You can use the boost operator <code>^</code> when one term is more relevant than another. For instance, you can search for all records with the <i>phrase</i> <code>open science</code> in either <code>title</code> or <code>description</code> field, but rank records with the <i>phrase</i> in the <code>title</code> as the most appropriate result.
+          You can use the boost operator <code>^</code> when one term is more
+          relevant than another. For instance, you can search for all records
+          with the <i>phrase</i> <code>open science</code> in either{' '}
+          <code>title</code> or <code>description</code> field, but rank records
+          with the <i>phrase</i> in the <code>title</code> as the most
+          appropriate result.
         </span>
       ),
       type: 'Advanced',
@@ -247,7 +271,9 @@ const SearchGuide = () => {
       title: 'Example 1',
       description: (
         <span>
-          You can search for terms similar to but not exactly like your search term using the fuzzy operator <code>~</code>. For example, fuzziness with something like "cube".
+          You can search for terms similar to but not exactly like your search
+          term using the fuzzy operator <code>~</code>. For example, fuzziness
+          with something like "cube".
         </span>
       ),
       type: 'Advanced',
@@ -258,7 +284,12 @@ const SearchGuide = () => {
       title: 'Example 1',
       description: (
         <span>
-          A <i>phrase</i> search like <code>"open science"</code> by default expect all term in exactly the same order, and thus, for instance, would not match a record containing the phrase "open access and science". A proximity search allows that the terms are not in the exact order and may include other terms in between. The proximity degree is specified by an interger after the <code>~</code> operator.
+          A <i>phrase</i> search like <code>"open science"</code> by default
+          expect all term in exactly the same order, and thus, for instance,
+          would not match a record containing the phrase "open access and
+          science". A proximity search allows that the terms are not in the
+          exact order and may include other terms in between. The proximity
+          degree is specified by an interger after the <code>~</code> operator.
         </span>
       ),
       type: 'Advanced',
@@ -269,7 +300,8 @@ const SearchGuide = () => {
       title: 'Example 1',
       description: (
         <span>
-          You can use the <code>?</code> wildcard operator in search terms to replace a single character.
+          You can use the <code>?</code> wildcard operator in search terms to
+          replace a single character.
         </span>
       ),
       type: 'Advanced',
@@ -280,7 +312,8 @@ const SearchGuide = () => {
       title: 'Example 2',
       description: (
         <span>
-          In the same way, you can use the <code>*</code> wildcard operator in search terms to replace zero or many characters.
+          In the same way, you can use the <code>*</code> wildcard operator in
+          search terms to replace zero or many characters.
         </span>
       ),
       type: 'Advanced',
@@ -291,7 +324,8 @@ const SearchGuide = () => {
       title: 'Example 3',
       description: (
         <span>
-          Both wildcard operators (<code>?</code> and <code>*</code>) can be combined.
+          Both wildcard operators (<code>?</code> and <code>*</code>) can be
+          combined.
         </span>
       ),
       type: 'Advanced',

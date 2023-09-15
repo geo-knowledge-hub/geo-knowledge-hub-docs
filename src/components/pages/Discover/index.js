@@ -7,25 +7,28 @@
  */
 
 import React from 'react';
+import clsx from 'clsx';
 
 import { DiscoverMap } from './map';
 
 import styles from './styles.module.css';
 
 const Discover = () => (
-  <div className={'container'}>
-    <h2 className={'h2 header-margin'}>Discover</h2>
-    <div className={styles.centered}>
-      <div className={styles.dcontainer}>
-        <p className={'p'}>
+  <div className={clsx(styles.section)}>
+    <div className={'container'}>
+      <h2 className={'h2'}>Discover</h2>
+      <div className={styles.centered}>
+        <div className={styles.descriptionContainer}>
+        <p className={'p padded'}>
           Presently, the GEO Knowledge Hub offers a diverse array of EO
           Applications. Please utilize the interactive map provided below to
           embark on a courteous and comprehensive exploration of these
           applications by continent.
         </p>
+        </div>
       </div>
+      <DiscoverMap />
     </div>
-    <DiscoverMap />
   </div>
 );
 

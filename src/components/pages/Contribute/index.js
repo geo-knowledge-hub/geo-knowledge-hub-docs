@@ -23,7 +23,7 @@ const ContributeSection = () => {
         <div className={'row'}>
           <div className={'col col--6'}>
             <h2 className={'h2'}>Want to contribute?</h2>
-            <p className={'p'}>
+            <p className={'p padded'}>
               The GKH offers you a place where you can make your solution
               visible and available to the rest of the world, in an Open
               Knowledge approach! To ensure long term discoverability of your
@@ -31,7 +31,7 @@ const ContributeSection = () => {
               and maintain it up to date with version management
               functionalities.
             </p>
-            <p className={'p'}>
+            <p className={'p padded'}>
               You are a member of a GWP activity or an EO expert and want to
               share an EO Application developed within your activity? You are in
               the right place!

@@ -6,7 +6,18 @@
  * under the terms of the MIT License; see LICENSE file for more details.
  */
 
+
+ 
 /* General definitions */
+.section {
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  vertical-align: center;
+  position: relative;
+  font-size: 1rem;
+}
+
 .centered {
   display: flex;
   justify-content: center;
@@ -18,9 +29,9 @@
   margin-bottom: 20px;
 }
 
-/* Map description definitions */
-.dcontainer {
-  max-width: 80%;
+/* Container */
+.descriptionContainer {
+  max-width: 100%;
 }
 
 /* Leaflet definitions */
@@ -42,4 +53,11 @@
 .mmargins {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+/* Media queries */
+@media screen and (min-width: 600px) {
+  .descriptionContainer {
+    max-width: 85%;
+  }
 }

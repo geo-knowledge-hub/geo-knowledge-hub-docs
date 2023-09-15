@@ -53,14 +53,7 @@ const ScopeSection = () => {
   return (
     <div className={styles.section}>
       <div className={'container'}>
-        <div className={'row'}>
-          <div className={clsx('col', 'col--6', styles.centered)}>
-            <img
-              src={useBaseUrl('/img/frontpage/scope.svg')}
-              alt="GKH Scope"
-              className={styles.scopeSectionImage}
-            />
-          </div>
+        <div className={clsx('row', styles.flexReverse)}>
           <div className={'col col--6'}>
             <h2 className={'h2'}>Scope</h2>
             <p className={'p'}>
@@ -69,6 +62,13 @@ const ScopeSection = () => {
               the Knowledge Resources essential to fully understand and re-use
               them.
             </p>
+          </div>
+          <div className={clsx('col', 'col--6', styles.centered)}>
+            <img
+              src={useBaseUrl('/img/frontpage/scope.svg')}
+              alt="GKH Scope"
+              className={styles.scopeSectionImage}
+            />
           </div>
         </div>
       </div>

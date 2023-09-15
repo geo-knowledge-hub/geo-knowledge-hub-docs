@@ -36,7 +36,7 @@ const ContributeSection = () => {
               share an EO Application developed within your activity? You are in
               the right place!
             </p>
-            <div className={'flex-centered'}>
+            <div className={clsx('flex-centered', styles.buttonContainer)}>
               <a
                 className="button button--secondary button--lg"
                 href={'mailto:secretariat@geosec.org'}
@@ -45,7 +45,7 @@ const ContributeSection = () => {
               </a>
             </div>
           </div>
-          <div className={clsx('col', 'col--6', styles.centered)}>
+          <div className={clsx('col', 'col--6', styles.centered, styles.imageContainer)}>
             <img
               src={useBaseUrl('/img/frontpage/sharing-knowledge.svg')}
               alt="Sharing Knowledge image"

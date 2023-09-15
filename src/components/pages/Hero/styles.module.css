@@ -7,27 +7,20 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
 }
 
 .heroSubtext {
-  max-width: 70%;
   text-align: center;
 }
 
-.rightAligned {
-  text-align: right;
+.buttonContainer {
+  justify-content: center;
+  gap: 2px;
 }
 
-.leftAligned {
-  text-align: left;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+@media screen and (min-width: 996px) {
+  .heroSubtext {
+    max-width: 55%;
   }
 }

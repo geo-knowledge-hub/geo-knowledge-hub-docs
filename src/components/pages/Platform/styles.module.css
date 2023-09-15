@@ -6,9 +6,10 @@
  * under the terms of the MIT License; see LICENSE file for more details.
  */
 
+ /* Section elements */
 .section {
   display: flex;
-  padding: 4rem 0;
+  padding: 2rem 0;
   align-items: center;
   vertical-align: center;
   position: relative;
@@ -17,6 +18,10 @@
 
 .section.gray {
   background: #f9f9f9;
+}
+
+.section .flexReverse {
+  flex-direction: row-reverse;
 }
 
 div .centered {
@@ -32,13 +37,13 @@ div .centered img {
 
 /* Image elements */
 .aboutSectionImage {
-  width: 65%;
+  width: 320px;
 }
 
 .scopeSectionImage {
-  width: 45%;
+  width: 280px;
 }
 
 .packagesResourcesSectionImage {
-  width: 65%;
+  width: 380px;
 }

@@ -7,5 +7,6 @@
  */
 
 export { fetchEvents } from './events';
+export { fetchPackages } from './packages';
 
 export { gkhubClient, cmsClient, httpFactory } from './api';

@@ -23,12 +23,12 @@ const AboutSection = () => {
         <div className={'row'}>
           <div className={'col col--6'}>
             <h2 className={'h2'}>EO Digital Library</h2>
-            <p className={'p'}>
+            <p className={'p padded'}>
               The GEO Knowledge Hub (GKH) is a central cloud-based digital
               library providing access to Earth Observation (EO) Applications
               developed by the GEO Work Programme Activities.
             </p>
-            <p className={'p'}>
+            <p className={'p padded'}>
               The GKH It is part of the GEOSS Infrastructure and helps the Group
               on Earth Observations (GEO) to advance Open Knowledge.
             </p>
@@ -56,7 +56,7 @@ const ScopeSection = () => {
         <div className={clsx('row', styles.flexReverse)}>
           <div className={'col col--6'}>
             <h2 className={'h2'}>Scope</h2>
-            <p className={'p'}>
+            <p className={'p padded'}>
               The scope of the GKH is to promote the replicability and
               re-usability of EO Applications by sharing with the end users, all
               the Knowledge Resources essential to fully understand and re-use
@@ -86,7 +86,7 @@ const PackagesResources = () => {
         <div className={'row'}>
           <div className={'col col--6'}>
             <h2 className={'h2'}>Knowledge Packages and Resources</h2>
-            <p className={'p'}>
+            <p className={'p padded'}>
               Inside the GKH, users will find EO Applications organized in
               Knowledge Packages (KP). A KP is composed by Knowledge Resources.
               This way, users are able to share their applications with all the

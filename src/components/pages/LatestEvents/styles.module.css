@@ -6,7 +6,7 @@
  * under the terms of the MIT License; see LICENSE file for more details.
  */
 
- .timelineItem {
+.timelineItem {
   position: relative;
   width: 100%;
 }
@@ -17,7 +17,8 @@
 
 .card {
   transition: box-shadow 0.3s ease;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
@@ -37,7 +38,7 @@
 
 .date {
   text-align: right;
-  color: rgba(0, 0, 0, 0.80);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .line {

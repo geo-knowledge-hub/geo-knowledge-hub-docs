@@ -27,7 +27,9 @@ const productReleases = [
     description: (
       <div>
         <div>
-          We have recreated the Front page in this new version of the GEO Knowledge Hub. Also, we added a new component to present User Stories on the Knowledge Package landing page.
+          We have recreated the Front page in this new version of the GEO
+          Knowledge Hub. Also, we added a new component to present User Stories
+          on the Knowledge Package landing page.
         </div>
       </div>
     ),
@@ -40,11 +42,18 @@ const productReleases = [
     description: (
       <div>
         <div>
-          In this new version of the GEO Knowledge Hub, we have introduced improvements to the package management interface, revised DOI Mint operations, and general improvements to our infrastructure.
+          In this new version of the GEO Knowledge Hub, we have introduced
+          improvements to the package management interface, revised DOI Mint
+          operations, and general improvements to our infrastructure.
         </div>
 
         <div>
-          This version also introduces the integration of the GEO Knowledge Hub with the <a href='https://gkhub.earthobservations.org/feed/' target='_blank'>GEO Knowledge Hub Feed</a> component.
+          This version also introduces the integration of the GEO Knowledge Hub
+          with the{' '}
+          <a href="https://gkhub.earthobservations.org/feed/" target="_blank">
+            GEO Knowledge Hub Feed
+          </a>{' '}
+          component.
         </div>
       </div>
     ),

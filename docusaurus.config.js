@@ -101,6 +101,11 @@ const config = {
             position: 'left',
           },
           {
+            to: 'reviewers',
+            label: 'Reviewers',
+            position: 'left'
+          },
+          {
             to: 'releases',
             label: 'Releases',
             position: 'left'

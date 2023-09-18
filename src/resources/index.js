@@ -8,5 +8,6 @@
 
 export { fetchEvents } from './events';
 export { fetchPackages } from './packages';
+export { fetchReviewers } from './reviewers';
 
 export { gkhubClient, cmsClient, httpFactory } from './api';

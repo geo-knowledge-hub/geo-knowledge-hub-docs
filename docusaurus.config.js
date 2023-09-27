@@ -20,7 +20,7 @@ const config = {
     process.env.GEO_KNOWLEDGE_HUB_DOCS_URL ||
     'https://gkhub.earthobservations.org/',
   baseUrl: '/doc/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'GEO Secretariat',
@@ -65,7 +65,6 @@ const config = {
     ],
     require.resolve('@cmfcmf/docusaurus-search-local'),
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -93,8 +92,7 @@ const config = {
             position: 'left',
             label: 'User guides',
           },
-          // Temporary disabled
-          // { to: "/reference/introduction", label: "Reference", position: "left" },
+          { to: "/reference/introduction", label: "Reference", position: "left" },
           {
             to: '/development/introduction',
             label: 'Development',

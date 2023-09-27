@@ -730,6 +730,89 @@ Content-Type: application/json
 }
 ```
 
+### Remove draft resource from the draft package
+
+Remove a draft Knowledge Resource from a Knowledge Package.
+
+#### Remove resource from draft package
+
+`DELETE /api/packages/{id}/draft/resources`
+
+To remove Knowledge Resources from a version of the GEO Knowledge Hub, you can use:
+
+**Parameters**
+
+| Name       | Type   | Location | Description                                                  |
+| ---------- | ------ | -------- | ------------------------------------------------------------ |
+| `resources`   | object | body     | List of resources to be added in the Package version. |
+
+A ``resource`` object is defined as:
+
+| Field |    Description   |
+|:-----:|:----------------|
+| ``id`` | The id of the resource. |
+
+**Request**
+
+```json
+POST /api/packages/{id}/draft/resources HTTP/1.1
+Content-Type: application/json
+
+{
+  "resources":
+    [
+      {
+        "id":"jyrxf-fd296"
+      }
+    ]
+}
+```
+
+**Response**
+
+```json
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+  "errors": []
+}
+```
+
+#### Context dissociation
+
+`POST /api/packages/{id}/context/actions/dissociate`
+
+Dissociate a draft Knowledge Resource from the Knowledge Package context. This is an optional step. So, suppose you want to remove a Knowledge Resource from a specific version but not from the Package context. In that case, you don't need to use the context dissociation.
+
+**Parameters**
+
+| Name       | Type   | Location | Description                                                  |
+| ---------- | ------ | -------- | ------------------------------------------------------------ |
+| `records`   | object | body     | List of resources to be added in the Package context. |
+
+A ``resource`` object is defined as:
+
+| Field |    Description   |
+|:-----:|:----------------|
+| ``id`` | The id of the resource. |
+
+**Request**
+
+```json
+POST /api/packages/{id}/context/actions/dissociate HTTP/1.1
+Content-Type: application/json
+
+{
+  "records":
+    [
+      {
+        "id":"jyrxf-fd296"
+      }
+    ]
+}
+```
+
 ### Publish draft
 
 `POST /api/packages/{id}/draft/actions/publish`

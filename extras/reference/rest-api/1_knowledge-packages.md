@@ -1757,7 +1757,7 @@ Last-Modified: Thu, 26 Nov 2020 14:30:06 GMT
 
 Used for interacting with package versions.
 
-### Create a new version
+### Create new version
 
 `POST /api/packages/{id}/versions`
 
@@ -1908,6 +1908,23 @@ The `versions.index` is also incremented. The `{parent-id}` connects the differe
 
 :::
 
+### Import resources from previous version
+
+`POST /api/packages/{id}/draft/actions/resources-import`
+
+Import the resources from the previous version to the new one.
+
+**Request**
+
+```
+POST /api/packages/{id}/draft/actions/resources-import HTTP/1.1
+```
+
+**Response**
+
+```json
+HTTP/1.1 204 No Content
+```
 
 ### Get all versions
 

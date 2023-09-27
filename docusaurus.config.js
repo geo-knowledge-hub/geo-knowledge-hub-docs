@@ -93,8 +93,7 @@ const config = {
             position: 'left',
             label: 'User guides',
           },
-          // Temporary disabled
-          // { to: "/reference/introduction", label: "Reference", position: "left" },
+          { to: "/reference/introduction", label: "Reference", position: "left" },
           {
             to: '/development/introduction',
             label: 'Development',

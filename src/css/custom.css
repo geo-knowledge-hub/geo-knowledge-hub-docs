@@ -22,6 +22,14 @@ p {
   text-align: justify;
 }
 
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #374151;
@@ -56,6 +64,14 @@ p {
 
 .box {
   border: 1px #406078 solid;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* For 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
 }
 
 .tabs {

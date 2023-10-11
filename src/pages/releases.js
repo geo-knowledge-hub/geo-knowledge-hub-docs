@@ -23,6 +23,19 @@ const moreUrl =
 
 const productReleases = [
   {
+    title: 'Version 1.6.3',
+    description: (
+      <div>
+        In this new version of the GEO Knowledge Hub, we improved the{' '}
+        <code>Geographic viewer</code> and the <code>Related links</code>{' '}
+        components. We appreciate the GEO Community for the collaboration.
+      </div>
+    ),
+    badge: 'Minor Release',
+    date: 'September 21, 2023',
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.6.3',
+  },
+  {
     title: 'Version 1.6.2',
     description: (
       <div>

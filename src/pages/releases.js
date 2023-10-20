@@ -23,6 +23,19 @@ const moreUrl =
 
 const productReleases = [
   {
+    title: 'Version 1.6.4',
+    description: (
+      <div>
+        In this new version of the GEO Knowledge Hub, we added features to
+        facilitate page navigation of Knowledge Packages and Knowledge
+        Resources. We appreciate the GEO Community for the collaboration.
+      </div>
+    ),
+    badge: 'Minor Release',
+    date: 'October 20, 2023',
+    link: 'https://github.com/geo-knowledge-hub/geo-knowledge-hub/releases/tag/v1.6.4',
+  },
+  {
     title: 'Version 1.6.3',
     description: (
       <div>

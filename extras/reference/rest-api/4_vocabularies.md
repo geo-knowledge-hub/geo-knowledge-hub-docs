@@ -4,7 +4,7 @@ title: Vocabularies
 sidebar_position: 5
 ---
 
-import EndpointCard from '@site/src/components/content/EndpointCard';
+import EndpointCard from '@site/src/components/content/VocabularyEndpointCard';
 
 The [InvenioRDM Vocabularies API](https://inveniordm.docs.cern.ch/reference/rest_api_vocabularies/) provides standard values for various types of information, which include:
 

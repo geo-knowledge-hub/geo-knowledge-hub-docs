@@ -1,7 +1,7 @@
 ---
 id: user-guideline-knowledge-provider-linking
 title: Submitting a Knowledge Package to a community
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 import ImageContent from '@site/src/components/content/ImageContent';

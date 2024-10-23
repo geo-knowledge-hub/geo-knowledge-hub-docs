@@ -1,7 +1,7 @@
 ---
 id: user-guideline-knowledge-provider-updating
 title: Updating an existing Knowledge Package
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 import ImageContent from '@site/src/components/content/ImageContent';

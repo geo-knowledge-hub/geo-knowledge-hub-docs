@@ -12,4 +12,4 @@ When it comes to **licensing**, it’s important to clearly define the terms und
 
 :::
 
-Moving on, **thinking long-term** is vital for sustainability. In the GEO Knowledge Hub Assigning a DOI helps preserve your work over time. Another functionality of the GEO Knowledge Hub is hosting capability because it is so important to preserve the valuable work that has been done. This functionality ensures durability of your content. Therefore, by using these features you make sure your content stays accessible and valuable to both current and future audiences.
+Moving on, **thinking long-term** is vital for sustainability. In the GEO Knowledge Hub, assigning a DOI helps preserve your work over time. Another functionality of the GEO Knowledge Hub is hosting capability because preserving the valuable work done is essential. This functionality ensures durability of your  content. Therefore, by using these features, you make sure your content stays accessible and valuable to both current and future audiences.

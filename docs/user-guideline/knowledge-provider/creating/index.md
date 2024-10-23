@@ -19,11 +19,11 @@ Sharing Earth Observation Applications in the `GEO Knowledge Hub` is done throug
 
 ### Getting ready
 
-Once you, as a *Knowledge Provider*, decided to share your application in the `GEO Knowledge Hub`, it is important to organize and document your application.
+Once you, as a *Knowledge Provider*, decide to share your application in the GEO Knowledge Hub, it is important to organize and document your application.
 
-**To start, use the checklist bellow**:
+**To start, use the checklist below**:
 
-1. Check the [best practices](../best-practices/) to create a Knowldge Package;
+1. Check the [best practices](../best-practices/) to create a Knowledge Package;
 
 2. Organize the material you want to share;
 

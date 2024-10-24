@@ -5,8 +5,8 @@ title: Creating a new Knowledge Package
 
 import Admonition from '@theme/Admonition';
 
-<Admonition type="caution" icon="🚧" title="Page under revision">
-    <p>This page is under revision. The content can be changed.</p>
+<Admonition type="caution" icon="🚧" title="Section under revision">
+    <p>This section is under revision. The content can be changed.</p>
 </Admonition>
 
 :::info
@@ -19,15 +19,17 @@ Sharing Earth Observation Applications in the `GEO Knowledge Hub` is done throug
 
 ### Getting ready
 
-The most important work, once as *Knowledge Provider* you decided to share your application in the `GEO Knowledge Hub` is to organize and document your application with the relative resources.
+Once you, as a *Knowledge Provider*, decide to share your application in the GEO Knowledge Hub, it is important to organize and document your application.
 
-**A checklist of actions is suggested**:
+**To start, use the checklist below**:
 
-1. Organize the material you want to share;
+1. Check the [best practices](../best-practices/) to create a Knowledge Package;
 
-2. Describe all the materials you have in a document (e.g., `Title`, `Authors`, `Licenses`, `Files` and so on);
+2. Organize the material you want to share;
 
-3. Go to the `GEO Knowledge Hub` and follow the [step-by-step](#step-by-step) guide to create a *Knowledge Package*.
+3. Describe all the materials you have in a document (e.g., `Title`, `Authors`, `Licenses`, `Files` and so on);
+
+4. Go to the `GEO Knowledge Hub` and follow the following step-by-step guide to create a *Knowledge Package*.
 
 ### Step-by-step
 

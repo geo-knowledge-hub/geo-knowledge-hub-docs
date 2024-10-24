@@ -1,7 +1,7 @@
 ---
 id: user-guideline-knowledge-provider-sharing
 title: Sharing a published Knowledge Package
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 import Admonition from '@theme/Admonition';

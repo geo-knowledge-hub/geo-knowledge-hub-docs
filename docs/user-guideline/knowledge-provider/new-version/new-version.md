@@ -1,7 +1,7 @@
 ---
 id: user-guideline-knowledge-provider-updating
 title: Creating a new version
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 import Admonition from '@theme/Admonition';
